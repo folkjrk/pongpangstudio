@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card-container{
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  justify-content:center;
+  flex-flow: row wrap;
+  gap:30px;
+  
+}
+
+.card-inner{
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;  
+}
+
+.card-inner:hover{
+  transform: rotate(4deg)
+}
+
+.card-image-1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-image: url(../../assets/image-1.png);
+    
+  }
+
+.card-image-2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-image: url(../../assets/image-1.png);
+    
+  }
+.card-image-3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-image: url(../../assets/image-1.png);
+    
+  }
+.topic-card{
+    height: auto;
+    width: 40%;
+    padding: 5px;
+    margin: 5px auto;
+    border: 0.5px solid;
+    border-radius: 40px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+
+  }
+  .description{
+    margin: 20px;
+    height: auto;
+    background-color: rgb(251, 251, 251);
+    border-radius: 15px;
+    text-align: left;
+  }

@@ -1,0 +1,22 @@
+/* *{
+    cursor: url(../src/assets/circle.png), auto;
+} */
+.cursor{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+}
+.cursor:hover {
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s ;
+}
